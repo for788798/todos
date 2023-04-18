@@ -62,11 +62,6 @@
                                 <input type="text" class="form-control" v-if="cacheItem.id == item.id"
                                     v-model="cacheTitle" v-on:keyup.enter="doneTodo(item)"
                                     v-on:keyup.esc="cancelTodo(item)">
-                                <!-- <div class="d-flex">
-                                    <div class="fs-4" v-model="test"></div>
-                                    <input type="text" v-model="test" class="form-control me-5">
-                                    <button class="btn btn-outline-primary ms-auto" v-bind:id="item.id" v-on:click="addTodo">點擊編輯</button>
-                                </div> -->
                             </li>
                         </ul>
                     </div>
